@@ -1,0 +1,846 @@
+{
+  "name": "BRChatbot",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 3,
+    "entities": 1,
+    "dialog_nodes": 16
+  },
+  "status": "Available",
+  "created": "2025-09-26T16:38:39.852Z",
+  "updated": "2025-09-26T16:38:39.852Z",
+  "language": "en",
+  "skill_id": "54795977-7c70-4695-95bb-1f90a6603536",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2025-09-26T16:38:39.852Z",
+    "intents": [
+      {
+        "intent": "book_recommendation",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "examples": [
+          {
+            "text": "Book recommendations for Biographies",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Biography",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Dystopia Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Fantasy",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Historical Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Horror",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Kids",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Memoir",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Mystery",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Psychology",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Realistic Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Science Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Short Stories",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Book recommendations for Young Adult",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Fear",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Good biography books",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Good Mystery books",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Good�Horror�books",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Horror",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "illusion",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Imagination",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Love",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "non fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Realistic",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good biography based books.",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for biography",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Dystopia Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Fantasy",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Historical Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Horror",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Kids",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Memoir",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Mystery",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Psychology",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Realistic Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Science�Fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Short Stories",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Recommend good books for Young Adult",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "riddle",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Scary",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "scientific",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "scifi",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Suspense",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Thriller",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Greetings",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "examples": [
+          {
+            "text": "Hello",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Hey!",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Hii!!",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "How can I help you!!",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Thankyou",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "examples": [
+          {
+            "text": "Bye",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "great! thanks",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Much appreciated",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "Thankyou",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          },
+          {
+            "text": "thankyou really good books",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2025-09-26T16:38:39.852Z",
+    "entities": [
+      {
+        "entity": "book_genre",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "biography",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "autobiography",
+              "biographical",
+              "biographies",
+              "filmography"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "dystopia",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "dystopian",
+              "dystopic"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "fiction",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "fantasy",
+              "fictions",
+              "imagination",
+              "literary",
+              "novelist",
+              "unreal"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "horror",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "fright",
+              "scariest",
+              "scary",
+              "zombie"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Kid",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "baby",
+              "child",
+              "children",
+              "kiddo",
+              "kids",
+              "little",
+              "teenage",
+              "teenager"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Memoir",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "autobiographical",
+              "autobiography",
+              "memoirist",
+              "memory"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "mystery",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "mysteries",
+              "riddle",
+              "secrecy",
+              "secret",
+              "suspense",
+              "thriller"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "psychology",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "psychiatry",
+              "psycological",
+              "psycologist",
+              "sociology"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "story",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "narratives",
+              "novels",
+              "storytelling",
+              "tales"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Young Adult",
+            "created": "2025-09-26T16:38:41.793Z",
+            "updated": "2025-09-26T16:38:41.793Z",
+            "synonyms": [
+              "children",
+              "interfaith",
+              "lenten",
+              "unitarian"
+            ]
+          }
+        ],
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 3,
+          "entities": 1,
+          "dialog_nodes": 16
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_3_1758815662452",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "Recommend Books",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Sure..."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "next_step": {
+          "behavior": "jump_to",
+          "selector": "condition",
+          "dialog_node": "node_9_1758817502014"
+        },
+        "conditions": "#book_recommendation",
+        "dialog_node": "node_10_1758816964484",
+        "previous_sibling": "node_6_1758815480284"
+      },
+      {
+        "type": "standard",
+        "title": "Thank_you",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Thank you! I am glad that I was able to help."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "#Thankyou",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_3_1758815662452",
+        "previous_sibling": "node_10_1758816964484"
+      },
+      {
+        "type": "standard",
+        "title": "Greetings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hi, are you looking for books? I can help you."
+                },
+                {
+                  "text": "Hi, I can help you with books, which genre of books are you looking for ?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "#Greetings",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_6_1758815480284",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Books by Genre",
+        "parent": "node_10_1758816964484",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "@book_genre",
+        "dialog_node": "node_9_1758817502014"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.Thinking, Fast and Slow  2.The Power of Habit  3.Man’s Search for Meaning  4.Influence: The Psychology of Persuasion  5.The Body Keeps the Score  6.Flow: The Psychology of Optimal Experience  7.Emotional Intelligence  8.Grit"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:psychology",
+        "dialog_node": "response_10_1758866078717",
+        "previous_sibling": "response_4_1758865931216"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.A Clockwork Orange  2.Brave New World  3.Fahrenheit 451  4.The Handmaid’s Tale  5.Never Let Me Go  6.Snow Crash  7.The Road"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:dystopia",
+        "dialog_node": "response_10_1758866366310",
+        "previous_sibling": "response_10_1758866078717"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.The Diary of a Young Girl – Anne Frank  2.Long Walk to Freedom – Nelson Mandela  3.Steve Jobs – Walter Isaacson  4.Becoming – Michelle Obama  5.Elon Musk – Ashlee Vance  6.Gandhi: An Autobiography – Mohandas K. Gandhi  7.The Story of My Experiments with Truth – Mahatma Gandhi"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:biography",
+        "dialog_node": "response_10_1758867330563",
+        "previous_sibling": "response_3_1758867172555"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.Charlotte’s Web  2.The Little Prince  3.Matilda  4.Alice’s Adventures in Wonderland  5.The Secret Garden  6.Heidi  7.Black Beauty  8.Peter Pan  9.Winnie-the-Pooh  10.The Jungle Book"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:story",
+        "dialog_node": "response_2_1758866578589",
+        "previous_sibling": "response_10_1758866366310"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.The Hunger Games  2.Divergent  3.The Fault in Our Stars  4.Six of Crows  5.Simon vs. the Homo Sapiens Agenda  6.Legend  7.Shadow and Bone  8.The Book Thief  9.Cinder  10.Throne of Glass"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:(Young Adult)",
+        "dialog_node": "response_3_1758866853653",
+        "previous_sibling": "response_2_1758866578589"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.Oh, the Places You’ll Go!  2.Where the Wild Things Are  3 The Very Hungry Caterpillar  4.The Tale of Peter Rabbit  5.Green Eggs and Ham  6.If You Give a Mouse a Cookie  7.Harold and the Purple Crayon"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:Kid",
+        "dialog_node": "response_3_1758867172555",
+        "previous_sibling": "response_3_1758866853653"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.Educated  2.Becoming  3.The Diary of a Young Girl  4.When Breath Becomes Air  5.The Glass Castle  6.Night  7.I Am Malala"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:Memoir",
+        "dialog_node": "response_4_1758865931216",
+        "previous_sibling": "response_6_1758865638805"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.The Hound of the Baskervilles  2.And Then There Were None  3.The Silent Patient  4.The Guest List  5.The Paris Apartment  6.The Shadow of the Wind  7.The Secret History"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:mystery",
+        "dialog_node": "response_5_1758865220645",
+        "previous_sibling": "response_6_1758817683373"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.To kill a Mocking bird 2.1984 3.Pride and Prejudice 4.The Book Thief 5.The Midnight Library"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:fiction",
+        "dialog_node": "response_6_1758817683373"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "1.Dracula  2.Frankenstein  3.The Shining  4.Pet Sematary  5.The Haunting of Hill House  6.The Exorcist  7.Bird Box  8.House of Leaves"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1758817502014",
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "@book_genre:horror",
+        "dialog_node": "response_6_1758865638805",
+        "previous_sibling": "response_5_1758865220645"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. How can I help you?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2025-09-26T16:38:41.793Z",
+        "updated": "2025-09-26T16:38:41.793Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "learning_opt_out": false
+  },
+  "description": "Initial chatbot implementation",
+  "assistant_id": "122244c1-ec3c-46e6-8524-a10efd1f2c1c",
+  "dialog_settings": {
+    "source_assistant": "04e19045-aaa5-42a2-a192-e8bf68afba08"
+  },
+  "assistant_references": [
+    {
+      "name": "BRChatbot",
+      "assistant_id": "04e19045-aaa5-42a2-a192-e8bf68afba08",
+      "skill_reference": "main skill"
+    }
+  ]
+}
